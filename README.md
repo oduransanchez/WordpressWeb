@@ -9,6 +9,8 @@ Este proyecto es una web visual y clara diseñada para explicar a nuevos cliente
 - **Eloy** - Product Owner
 - **Rubén** - Developer
 - **Álvaro** - Developer
+- **Jorge** - Developer
+
 
 ## Estructura del Proyecto
 ```
