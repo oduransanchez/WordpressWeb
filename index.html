@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordPress: CMS y LMS | Guía Introductoria</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-code-slash me-2"></i>WebEduDev
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#introduccion">Introducción</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cms">WordPress como CMS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lms">WordPress como LMS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#comparacion">Comparación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold mb-4">WordPress: Potenciando la Educación Digital</h1>
+                    <p class="lead mb-4">Descubre cómo <span class="wp-logo">WordPress</span> puede transformarse en la herramienta ideal para gestionar contenidos y crear experiencias de aprendizaje en línea efectivas.</p>
+                    <a href="#introduccion" class="btn btn-custom btn-lg">Comenzar a explorar</a>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <i class="bi bi-wordpress wp-hero-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introducción -->
+    <section id="introduccion" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h2 class="section-title">Introducción a WordPress</h2>
+                    <p class="lead">WordPress es la plataforma de gestión de contenidos más popular del mundo, pero su versatilidad va mucho más allá. En esta guía exploraremos sus dos caras principales: como CMS (Sistema de Gestión de Contenidos) y como LMS (Sistema de Gestión de Aprendizaje).</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 p-4">
+                        <div class="icon-container">
+                            <i class="bi bi-file-earmark-text"></i>
+                        </div>
+                        <h3>¿Qué es un CMS?</h3>
+                        <p>Un <strong>Sistema de Gestión de Contenidos (CMS)</strong> es una aplicación que permite crear, gestionar y publicar contenido digital de manera sencilla, sin necesidad de conocimientos técnicos avanzados.</p>
+                        <p>Con un CMS como WordPress, puedes:</p>
+                        <ul class="feature-list">
+                            <li>Crear y editar páginas web fácilmente</li>
+                            <li>Gestionar artículos de blog y noticias</li>
+                            <li>Organizar contenido con categorías y etiquetas</li>
+                            <li>Gestionar usuarios con diferentes permisos</li>
+                            <li>Extender funcionalidades con plugins</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 p-4">
+                        <div class="icon-container">
+                            <i class="bi bi-mortarboard"></i>
+                        </div>
+                        <h3>¿Qué es un LMS?</h3>
+                        <p>Un <strong>Sistema de Gestión de Aprendizaje (LMS)</strong> es una plataforma diseñada para crear, gestionar y distribuir contenido educativo, permitiendo el seguimiento del progreso de los estudiantes.</p>
+                        <p>Un LMS basado en WordPress permite:</p>
+                        <ul class="feature-list">
+                            <li>Crear cursos en línea estructurados</li>
+                            <li>Gestionar inscripciones de estudiantes</li>
+                            <li>Evaluar mediante cuestionarios y tareas</li>
+                            <li>Seguir el progreso de los alumnos</li>
+                            <li>Facilitar la interacción entre estudiantes y profesores</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="highlight-box mt-5">
+                <div class="row align-items-center">
+                    <div class="col-md-9">
+                        <h3 class="mb-3">La flexibilidad de WordPress</h3>
+                        <p class="mb-0">WordPress comenzó como una herramienta para blogs, pero ha evolucionado hasta convertirse en una plataforma versátil que puede adaptarse a múltiples propósitos, incluyendo la creación de sitios web educativos y plataformas de aprendizaje.</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <i class="bi bi-lightbulb highlight-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WordPress como CMS -->
+    <section id="cms" class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h2 class="section-title">WordPress como CMS</h2>
+                    <p class="lead">WordPress es el CMS más utilizado en el mundo, con más del 40% de todos los sitios web creados con esta plataforma. Su facilidad de uso y extensibilidad lo hacen ideal para proyectos educativos.</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 p-4">
+                        <h4 class="mb-3"><i class="bi bi-pencil-square me-2 icon-primary"></i> Editor Visual Intuitivo</h4>
+                        <p>El editor Gutenberg de WordPress permite crear contenido con bloques arrastrables, facilitando la creación de páginas atractivas sin conocimientos de código.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 p-4">
+                        <h4 class="mb-3"><i class="bi bi-plug me-2 icon-primary"></i> Miles de Plugins</h4>
+                        <p>Con más de 60,000 plugins disponibles, puedes agregar cualquier funcionalidad a tu sitio: formularios, galerías, comercio electrónico, y mucho más.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 p-4">
+                        <h4 class="mb-3"><i class="bi bi-palette me-2 icon-primary"></i> Temas Personalizables</h4>
+                        <p>Elige entre miles de temas profesionales y personalízalos para que se adapten a la identidad de tu institución educativa.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="card p-4">
+                        <h4 class="mb-3">Ventajas de WordPress como CMS educativo</h4>
+                        <ul class="feature-list">
+                            <li><strong>Fácil de usar:</strong> Interface intuitiva para todos los niveles</li>
+                            <li><strong>Bajo costo:</strong> Software libre con hosting accesible</li>
+                            <li><strong>Comunidad activa:</strong> Gran cantidad de recursos y soporte</li>
+                            <li><strong>SEO amigable:</strong> Optimizado para motores de búsqueda</li>
+                            <li><strong>Multilingüe:</strong> Ideal para instituciones con estudiantes internacionales</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card p-4">
+                        <h4 class="mb-3">Casos de uso educativo</h4>
+                        <ul class="feature-list">
+                            <li><strong>Sitio web institucional:</strong> Información sobre la escuela o universidad</li>
+                            <li><strong>Blog educativo:</strong> Publicación de artículos y noticias académicas</li>
+                            <li><strong>Portal de recursos:</strong> Biblioteca digital de materiales educativos</li>
+                            <li><strong>Sitio de profesores:</strong> Páginas personales para docentes</li>
+                            <li><strong>Revista digital:</strong> Publicación de investigaciones y trabajos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WordPress como LMS -->
+    <section id="lms" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h2 class="section-title">WordPress como LMS</h2>
+                    <p class="lead">Con los plugins adecuados, WordPress puede transformarse en un poderoso Sistema de Gestión de Aprendizaje, ideal para crear y gestionar cursos en línea, tanto para instituciones educativas como para profesionales independientes.</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100 p-4">
+                        <h4 class="mb-4 text-center">Plugins LMS para WordPress</h4>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="icon-container me-3 small-icon">
+                                        <i class="bi bi-book"></i>
+                                    </div>
+                                    <h5 class="mb-0">LearnDash</h5>
+                                </div>
+                                <p>Plugin premium con funciones avanzadas para crear cursos, lecciones, cuestionarios y certificados.</p>
+                            </div>
+                            
+                            <div class="col-md-6 mb-3">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="icon-container me-3 small-icon">
+                                        <i class="bi bi-laptop"></i>
+                                    </div>
+                                    <h5 class="mb-0">LearnPress</h5>
+                                </div>
+                                <p>Plugin gratuito con todas las funciones esenciales para gestionar cursos y estudiantes.</p>
+                            </div>
+                            
+                            <div class="col-md-6 mb-3">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="icon-container me-3 small-icon">
+                                        <i class="bi bi-people"></i>
+                                    </div>
+                                    <h5 class="mb-0">Sensei LMS</h5>
+                                </div>
+                                <p>Desarrollado por WooCommerce, ideal para vender cursos y integrar con una tienda online.</p>
+                            </div>
+                            
+                            <div class="col-md-6 mb-3">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="icon-container me-3 small-icon">
+                                        <i class="bi bi-award"></i>
+                                    </div>
+                                    <h5 class="mb-0">LifterLMS</h5>
+                                </div>
+                                <p>Plugin completo con funciones de membresía, certificados y integraciones con herramientas populares.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100 p-4">
+                        <h4 class="mb-4">Características de un LMS en WordPress</h4>
+                        <div class="row">
+                            <div class="col-12 mb-3">
+                                <div class="d-flex">
+                                    <i class="bi bi-check-circle-fill me-3 check-icon"></i>
+                                    <div>
+                                        <h6>Creación de cursos estructurados</h6>
+                                        <p class="small text-muted">Organiza el contenido en módulos, lecciones y temas con progresión lógica.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12 mb-3">
+                                <div class="d-flex">
+                                    <i class="bi bi-check-circle-fill me-3 check-icon"></i>
+                                    <div>
+                                        <h6>Sistema de evaluaciones</h6>
+                                        <p class="small text-muted">Crea cuestionarios, tareas y exámenes con diferentes tipos de preguntas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12 mb-3">
+                                <div class="d-flex">
+                                    <i class="bi bi-check-circle-fill me-3 check-icon"></i>
+                                    <div>
+                                        <h6>Seguimiento de progreso</h6>
+                                        <p class="small text-muted">Monitoriza el avance de los estudiantes y genera informes detallados.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12 mb-3">
+                                <div class="d-flex">
+                                    <i class="bi bi-check-circle-fill me-3 check-icon"></i>
+                                    <div>
+                                        <h6>Interacción social</h6>
+                                        <p class="small text-muted">Foros de discusión, mensajería y comentarios para fomentar la colaboración.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12 mb-3">
+                                <div class="d-flex">
+                                    <i class="bi bi-check-circle-fill me-3 check-icon"></i>
+                                    <div>
+                                        <h6>Certificados y badges</h6>
+                                        <p class="small text-muted">Reconoce los logros de los estudiantes con certificados digitales e insignias.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparación -->
+    <section id="comparacion" class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h2 class="section-title">CMS vs LMS: Comparación</h2>
+                    <p class="lead">Aunque WordPress puede funcionar tanto como CMS como LMS, es importante entender las diferencias principales entre estos dos tipos de sistemas.</p>
+                </div>
+            </div>
+            
+            <div class="comparison-table">
+                <table class="table table-hover mb-0">
+                    <thead>
+                        <tr>
+                            <th width="20%">Característica</th>
+                            <th width="40%">WordPress como CMS</th>
+                            <th width="40%">WordPress como LMS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Propósito principal</strong></td>
+                            <td>Gestionar y publicar contenido web</td>
+                            <td>Gestionar y entregar experiencias de aprendizaje</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Enfoque del contenido</strong></td>
+                            <td>Contenido estático o dinámico (páginas, artículos)</td>
+                            <td>Contenido educativo estructurado (cursos, lecciones)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gestión de usuarios</strong></td>
+                            <td>Roles básicos (admin, editor, autor, suscriptor)</td>
+                            <td>Roles educativos (instructor, estudiante, asistente)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Seguimiento</strong></td>
+                            <td>Estadísticas básicas de visitas y comentarios</td>
+                            <td>Seguimiento detallado del progreso de aprendizaje</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Evaluación</strong></td>
+                            <td>Comentarios y formularios de contacto</td>
+                            <td>Cuestionarios, tareas, exámenes y calificaciones</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Interacción</strong></td>
+                            <td>Comentarios en artículos y páginas</td>
+                            <td>Foros, mensajería, debates en lecciones</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Ejemplos de uso</strong></td>
+                            <td>Sitio web institucional, blog, portal de noticias</td>
+                            <td>Cursos en línea, capacitación corporativa, academia virtual</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <div class="card p-5">
+                        <h3 class="mb-4">¿Necesitas un CMS, un LMS o ambos?</h3>
+                        <p class="mb-4">Muchas instituciones educativas comienzan con WordPress como CMS para su sitio web principal, y luego añaden funcionalidades LMS para ofrecer cursos en línea. La ventaja de WordPress es que puedes integrar ambas funciones en una misma plataforma.</p>
+                        <a href="#contacto" class="btn btn-custom btn-lg">Consulta con nuestros expertos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="mb-4">¿Listo para impulsar tu proyecto educativo con WordPress?</h2>
+                    <p class="mb-4">Nuestro equipo de desarrollo web educativo puede ayudarte a crear la plataforma perfecta, ya sea un sitio web institucional, una academia en línea o una combinación de ambos.</p>
+                    <button id="demo-btn" class="btn btn-light btn-lg me-3">Solicitar demostración</button>
+                    <button id="guide-btn" class="btn btn-outline-light btn-lg">Descargar guía PDF</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h4 class="mb-4">WebEduDev</h4>
+                    <p>Especialistas en desarrollo web educativo con WordPress. Creamos soluciones digitales que facilitan la enseñanza y el aprendizaje en línea.</p>
+                    <div class="mt-4 social-icons">
+                        <a href="#" class="text-light me-3"><i class="bi bi-facebook fs-5"></i></a>
+                        <a href="#" class="text-light me-3"><i class="bi bi-twitter fs-5"></i></a>
+                        <a href="#" class="text-light me-3"><i class="bi bi-linkedin fs-5"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-youtube fs-5"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <h4 class="mb-4">Enlaces rápidos</h4>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-2"><a href="#introduccion" class="text-light text-decoration-none">Introducción</a></li>
+                        <li class="mb-2"><a href="#cms" class="text-light text-decoration-none">WordPress como CMS</a></li>
+                        <li class="mb-2"><a href="#lms" class="text-light text-decoration-none">WordPress como LMS</a></li>
+                        <li class="mb-2"><a href="#comparacion" class="text-light text-decoration-none">Comparación CMS vs LMS</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <h4 class="mb-4">Contacto</h4>
+                    <p><i class="bi bi-envelope me-2"></i> info@campusfp.com</p>
+                    <p><i class="bi bi-telephone me-2"></i> +34 912 345 678</p>
+                    <p><i class="bi bi-geo-alt me-2"></i> Madrid, España</p>
+                    <button id="contact-btn" class="btn btn-custom mt-3">Contactar ahora</button>
+                </div>
+            </div>
+            
+            <hr class="mt-4 mb-4 footer-divider">
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; <span id="current-year">2026</span> WebEduDev. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">Desarrollado con <i class="bi bi-heart-fill text-danger"></i> para la educación digital</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
